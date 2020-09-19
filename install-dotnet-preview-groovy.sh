@@ -191,8 +191,8 @@ then
     echo
     wget http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu66_66.1-2ubuntu2_amd64.deb
     dpkg -i libicu66_66.1-2ubuntu2_amd64.deb
-    chown _apt /var/lib/update-notifier/package-data-downloads/partial/
     install
+    chown _apt /var/lib/update-notifier/package-data-downloads/partial/
 else
     echo "${DISTRO_NAME} is not supported by the .NET 5 Preview installer."
 fi
