@@ -26,3 +26,5 @@ $ dotnet --info
 ```
 
 Original instructions located here:  https://github.com/dotnet/core/blob/master/release-notes/5.0/preview/5.0.0-rc.1-install-instructions.md
+
+Packages for all platforms: https://dotnet.microsoft.com/download/dotnet/5.0 
